@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Join CAC Team</title>
+
+    <link rel="stylesheet" type="text/css" href="Style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <form autocomplete="off" method="post" name="google-sheet">
+            <h3>
+                <center>Join CAC Team</center>
+            </h3>
+            <input type="text" placeholder="Type your name Here" name="name">
+            <input type="text" placeholder="Type your UID Here" name="UID">
+            <input type="email" placeholder="Type your email Here" name="email">
+
+            <input type="text" placeholder="Type your department Here" name="Department">
+
+            <select name="year">
+                <option value="Not Selected">Select your Year</option>
+                <option value="1st">1st</option>
+                <option value="2nd">2nd</option>
+                <option value="3rd">3rd</option>
+                <option value="4th">4th</option>
+                <option value="5th">5th</option>
+            </select>
+
+            <input type="tel" placeholder="Type your Mobile Number Here" name="mobile">
+
+            <select name="Domain">
+                <option value="Not Selected">Select Domain of interested</option>
+                <option value="Marketing Lead">Marketing Lead</option>
+                <option value="Graphics Designer">Graphics Designer</option>
+                <option value="Data Analyst">Data Analyst</option>
+                <option value="Content Writer">Content Writer</option>
+            </select>
+
+            <input type="text" placeholder="Society or Club " name="Member_of_any_Professional_Societies/Clubs">
+
+            <button type="submit" name="Submit">Submit</button>
+            <button type="reset" class="reset">Reset</button>
+
+        </form>
+    </div>
+
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbyrBZHr_dMxHoJ2yAdfQo7r6DBSWJ-atKL8FXWR6_-DnKPn_SFJ0hi5XU4amMA2MMj5cg/exec'
+        const form = document.forms['google-sheet']
+
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => alert("Thanks for showing your interest..! We Will Contact You Soon..."))
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+</body>
+
+</html>
