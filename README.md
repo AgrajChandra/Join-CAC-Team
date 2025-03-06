@@ -2,7 +2,7 @@
 
 A simple yet powerful web form built using **Google Apps Script**, allowing seamless interaction with **Google Sheets**. This project leverages **HTMLService** to create a user-friendly interface, making data collection and management effortless.
 
----
+
 
 ## 🚀 Features
 
@@ -12,7 +12,7 @@ A simple yet powerful web form built using **Google Apps Script**, allowing seam
 ✅ **Easy Deployment** – Deploy as a web app with a shareable URL.<br>
 ✅ **Customizable** – Modify the UI and backend logic to fit your needs.<br>
 
----
+
 
 ## 📌 Getting Started
 
@@ -28,7 +28,7 @@ A simple yet powerful web form built using **Google Apps Script**, allowing seam
 2. Fill out the form and submit data.
 3. Submitted data is stored in **Google Sheets (`Sheet1`)**.
 
----
+
 
 ## ⚡ Usage
 
@@ -41,7 +41,7 @@ A simple yet powerful web form built using **Google Apps Script**, allowing seam
 - Customize the UI and backend logic.
 - Extend functionality to include **email notifications, data validation, or automation**.
 
----
+
 
 ## 🛠️ Code Structure
 
@@ -58,7 +58,7 @@ We welcome contributions to enhance functionality, improve UI, or fix issues! Fo
 4. **Push the branch:** `git push origin feature/your-feature` 📤
 5. **Create a pull request** 🛠️
 
----
+
 
 ## 🎉 Acknowledgments
 
