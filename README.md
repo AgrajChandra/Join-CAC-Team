@@ -66,6 +66,5 @@ We welcome contributions to enhance functionality, improve UI, or fix issues! Fo
 🙏 Special thanks to the **open-source community** for continuous support.<br>
 🚀 Keep building and innovating!
 
----
 
 
