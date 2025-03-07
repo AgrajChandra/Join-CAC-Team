@@ -2,7 +2,7 @@
 
 A simple yet powerful web form built using **Google Apps Script**, allowing seamless interaction with **Google Sheets**. This project leverages **HTMLService** to create a user-friendly interface, making data collection and management effortless.
 
-
+---
 
 ## 🚀 Features
 
